@@ -1,18 +1,27 @@
-## Getting Started
+# Hotel-Reservation-System-jdbc
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java project demonstrating JDBC connectivity with PostgreSQL and crud operations.
 
-## Folder Structure
+## Technologies
+- Java
+- JDBC
+- PostgreSQL
 
-The workspace contains two folders by default, where:
+## Features
+- Connect to PostgreSQL database
+- Execute SQL queries using Statement
+- Insert records
+- Update records
+- Delete records
+- Retrieve and display data
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Prerequisites
+- Java JDK 17+
+- PostgreSQL
+- PostgreSQL JDBC Driver
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+1. Create the database.
+2. Update database credentials in the source code.
+3. Add PostgreSQL JDBC driver.
+4. Compile and run the project.
